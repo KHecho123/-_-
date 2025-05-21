@@ -48,7 +48,7 @@
 
 ### 1. 安装依赖
 ```bash
-pip install opencv-python insightface PyQt5 # 可能不止这些，可以运行看看缺少什么module，再install
+pip install opencv-python insightface PyQt5 # 注意版本匹配，具体这些库的版本可见requirements.txt，requirements里有不少多余的库，不需要全部下载。insightface可能需要本地下载。
 ```
 
 ### 2. 下载预训练模型
